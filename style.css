@@ -6,19 +6,18 @@ h3{
 /* navigation bar */
 nav{
     display: flex;
+    
+}
+
+.floating{
+    float: right;
 }
 
 /* first section  */
 
-div{
-    
-    float: right;
-}
+
 .navigation-bar{
-    
     display: flex;
-    float: right;
-    
 }
 ul li{
     padding: 10px;
@@ -48,6 +47,53 @@ ul li a{
     color: white;
     padding: 15px;
     border-radius: 10px;
-    margin-bottom: 50px;
     text-decoration: none;
+}
+.main-blog{
+    margin-bottom: 25px;
+}
+
+/* Horizontal logos */
+
+.logo-image{
+    
+    padding-left: 135px;
+    
+    
+}
+
+/* popular products */
+
+.text-popular{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.product-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.product-image img{
+    height: 200px;
+    width: 200px;
+}
+
+/*                              footer style                     */
+
+footer{
+    background-color: rgb(29, 18, 18);
+}
+footer h2{
+    text-align: center;
+    color: blanchedalmond;
+    margin-bottom: 0;
+} 
+.footer-para{
+    color: blanchedalmond;
+    text-align: center;
+    margin: 0;
+}
+.fab{
+    color: white;
+    padding-left: 20px;
 }
