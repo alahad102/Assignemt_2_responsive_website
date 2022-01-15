@@ -1,3 +1,14 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Outfit:wght@200&family=Poppins:wght@200&display=swap');
+
+
+
+
+body{
+    margin: 100px;
+}
+
 /* influencer product */
 h3{
     padding-left: 20px;
@@ -14,6 +25,15 @@ nav{
 }
 
 /* first section  */
+
+.blog-image:hover{
+    transform: translateX(100px);
+    
+}
+.blog-image{
+    width: 20%;
+    transition: transform 1s;
+}
 
 
 .navigation-bar{
@@ -35,12 +55,10 @@ ul li a{
     display: flex;
 }
 .blog{
-    width: 50%;
+    width: 60%;
     padding: 20px;
 }
-.blog-image{
-    width: 50%;
-}
+
 .prebook{
     background-color: rgb(168, 20, 20);
     font-weight: 700;
@@ -48,9 +66,12 @@ ul li a{
     padding: 15px;
     border-radius: 10px;
     text-decoration: none;
+    margin-top: 30px;
 }
 .main-blog{
     margin-bottom: 25px;
+    font-family: 'Poppins', sans-serif;
+    
 }
 
 /* Horizontal logos */
@@ -73,15 +94,73 @@ ul li a{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+.product-image{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 10px;
+    height:max-content;
+    width: 350px;
+    padding: 10px;
+}
 .product-image img{
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 350px ;
+    transition: transform 2s;
+}
+.product-image img:hover{
+    transform: scale(1.15);
+}
+h4{
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+.product-price{
+    margin: 0;
+    font-size: 50px;
+}
+
+.star i{
+    font-size: 10px;
+}
+.star-rate{
+    font-size: 15px;
+    font-weight: 700;
+}
+.shipping{
+    margin-bottom: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.see-more{
+    text-align: end;
+    padding-right: 150px;
+    font-weight: 700;
+}
+
+/*-------------------------------- bonus part     ------------------------*/
+.bonus-sec{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.bonus-img{
+    height: 300px;
+    width: 500px;
+}
+
+.bonus{
+    display: flex;
+}
+
+.bonus-div{
+    width: 50%;
 }
 
 /*                              footer style                     */
 
+
+
 footer{
     background-color: rgb(29, 18, 18);
+    margin: 0;
 }
 footer h2{
     text-align: center;
@@ -96,4 +175,7 @@ footer h2{
 .fab{
     color: white;
     padding-left: 20px;
+}
+.no-margin{
+    margin: 20px;
 }
