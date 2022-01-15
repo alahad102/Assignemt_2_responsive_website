@@ -26,3 +26,23 @@ ul li a{
     font-weight: 700;
     font-size: small;
 }
+
+.first-part{
+    display: flex;
+}
+.blog{
+    width: 50%;
+    padding: 20px;
+}
+.blog-image{
+    width: 50%;
+}
+.prebook{
+    background-color: rgb(168, 20, 20);
+    font-weight: 700;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
