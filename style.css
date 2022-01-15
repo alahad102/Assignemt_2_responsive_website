@@ -6,7 +6,7 @@
 
 
 body{
-    margin: 100px;
+    margin: 10px;
 }
 
 /* influencer product */
@@ -15,7 +15,7 @@ h3{
 }
 
 /* navigation bar */
-nav{
+.nvg{
     display: flex;
     
 }
@@ -178,4 +178,36 @@ footer h2{
 }
 .no-margin{
     margin: 20px;
+}
+
+@media only screen and (max-width:688px){
+    .blog-image, .blog, .bonus-div{
+        width: 100%
+    };
+    .nvg, .navigation-bar, .first-part, .bonus, .product-list{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .nvg, .navigation-bar, .first-part, .bonus, .product-list{
+        flex-direction: column;
+    }
+    .product-list{
+        display: block;
+    }
+
+}
+@media only screen and (min-width:688px) and (max-width: 992px){
+    .blog-image, .blog, .bonus-div{
+        width: 100%
+    };
+    .nvg, .first-part, .bonus{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .navigation-bar,  .product-list{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .nvg, .navigation-bar, .first-part, .bonus, .product-list{
+        flex-direction: column;
+    }
+    
+
 }
