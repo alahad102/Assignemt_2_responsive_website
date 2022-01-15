@@ -1,10 +1,15 @@
-
+/* influencer product */
 h3{
     padding-left: 20px;
 }
+
+/* navigation bar */
 nav{
     display: flex;
 }
+
+/* first section  */
+
 div{
     
     float: right;
