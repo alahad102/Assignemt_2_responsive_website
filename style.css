@@ -1,0 +1,28 @@
+
+h3{
+    padding-left: 20px;
+}
+nav{
+    display: flex;
+}
+div{
+    
+    float: right;
+}
+.navigation-bar{
+    
+    display: flex;
+    float: right;
+    
+}
+ul li{
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: small;
+}
